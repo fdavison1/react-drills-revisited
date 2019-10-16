@@ -17,6 +17,7 @@ handleChange(e){
         return(
             <div>
                 <h2>App-1</h2>
+                <p>Create a basic react app where you type in a text box and it shows up as text on the DOM.</p>
                 <input onChange={(e)=>this.handleChange(e)}/>
                 <h3>{this.state.input}</h3>
             </div>
