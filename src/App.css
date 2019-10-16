@@ -21,6 +21,23 @@
   color: #09d3ac;
 }
 
+h1 {
+  border: solid black;
+  margin: 0 auto;
+  width: 50vh;
+}
+
 h3 {
   color: red;
+  background-color: lightgray;
+  margin: 0 auto;
+  width: 50vh;
+}
+
+p {
+  width: 50vh;
+  border: black solid;
+  margin: 0 auto;
+  /* height: auto; */
+  /* text-align: center; */
 }
