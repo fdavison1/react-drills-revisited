@@ -20,7 +20,7 @@ export default class App extends Component{
       <div className='App'>
         <h1>React Drills!</h1>
         <hr></hr>
-        <img className='example' src='https://github.com/DevMountain/react-drills/raw/assets/1g.gif'/>
+        {/* <img className='example' src='https://github.com/DevMountain/react-drills/raw/assets/1g.gif'/> */}
         <App1 />
         <hr></hr>
         <App2 />

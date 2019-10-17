@@ -48,12 +48,13 @@ p {
 input {
   border: solid black;
   background: lightyellow;
+  font-size: 1.5rem;
 }
 
 img {
   width: 50vh;
 }
 
-img {
- /* border: solid red; */
+button {
+  font-size: 1.5rem;
 }

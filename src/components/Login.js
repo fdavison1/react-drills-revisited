@@ -29,8 +29,8 @@ export default class Login extends Component{
     render(){
         return(
             <div>
-                Username:<input onChange={(e)=>this.input1(e.target.value)}/><br></br>
-                Password:<input onChange={(e)=>this.input2(e.target.value)}/><br></br>
+                Username:<input placeholder='User Name' onChange={(e)=>this.input1(e.target.value)}/><br></br>
+                Password:<input placeholder='Password' onChange={(e)=>this.input2(e.target.value)}/><br></br>
                 <button onClick={()=>this.clicked()}>Login</button>
             </div>
         )
