@@ -12,7 +12,7 @@ export default class App5 extends Component{
     render(){
         return(
             <div>
-                <h2>App5</h2>
+                <h2>App-5</h2>
                 <p>Create an Image component that renders an img element. The src for the img should be passed down as a prop from the parent component.</p>
                 <Img imageURL={this.state.imageURL}/>
             </div>
