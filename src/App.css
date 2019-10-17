@@ -49,3 +49,7 @@ input {
   border: solid black;
   background: lightyellow;
 }
+
+img {
+  width: 50vh;
+}
