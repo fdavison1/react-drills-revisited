@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: lightgray;
 }
 
 .App-logo {
@@ -25,11 +26,12 @@ h1 {
   border: solid black;
   margin: 0 auto;
   width: 50vh;
+  background: white;
 }
 
 h3 {
   color: red;
-  background-color: lightgray;
+  background-color: white;
   margin: 0 auto;
   width: 50vh;
 }
@@ -38,6 +40,12 @@ p {
   width: 50vh;
   border: black solid;
   margin: 0 auto;
+  background-color: white;
   /* height: auto; */
   /* text-align: center; */
+}
+
+input {
+  border: solid black;
+  background: lightyellow;
 }

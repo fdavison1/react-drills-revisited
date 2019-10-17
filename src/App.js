@@ -3,6 +3,7 @@ import './App.css'
 import App1 from './Apps/App1/App1'
 import App2 from './Apps/App2/App2'
 import App3 from './Apps/App3/App3'
+import App4 from './Apps/App4/App4'
 
 export default class App extends Component{
   constructor(){
@@ -22,6 +23,8 @@ export default class App extends Component{
         <App2 />
         <hr></hr>
         <App3 />
+        <hr></hr>
+        <App4 />
         <hr></hr>
       </div>
     )
