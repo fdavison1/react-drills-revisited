@@ -8,6 +8,7 @@ import App5 from './components/App5'
 import App6 from './components/App6'
 import App7 from './components/App7'
 import App8 from './components/App8'
+import App9 from './components/App9'
 
 export default class App extends Component{
   constructor(){
@@ -39,6 +40,7 @@ export default class App extends Component{
         <hr></hr>
         <App8 />
         <hr></hr>
+        <App9 />
       </div>
     )
   }
