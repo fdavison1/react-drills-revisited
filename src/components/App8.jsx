@@ -13,7 +13,7 @@ export default class App8 extends React.Component{
     }
     
     getPokemon(){
-    axios.get(`https://pokeapi.co/api/v2/pokemon/${Math.ceil(Math.random()*964)}`).then(res => {
+    axios.get(`https://pokeapi.co/api/v2/pokemon/${Math.ceil(Math.random()*151)}`).then(res => {
         this.setState({
             pokemon : res.data
             })
