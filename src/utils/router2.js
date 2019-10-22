@@ -6,6 +6,6 @@ import Products from '../components/Products'
 export default (
     <Switch>
         <Route path='/products' component={Products}/>
-        <Route path='/products/details/:id' component={ProductDetails}/>
+        <Route path='/productdetails/:name' component={ProductDetails}/>
     </Switch>
 )

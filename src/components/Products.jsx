@@ -23,11 +23,11 @@ export default class Products extends React.Component{
 
     render(){
         let pokemon = this.state.pokemon.map((el, i) => {
-            return <Link key={i} to={`/productdetails/${el.id}`}>{el.name}</Link>
+            return <Link key={i} to={`/productdetails/${el.name}`}><button>{el.name}</button></Link>
         })
         return(
             <div>
-                <h3>test</h3>
+                <h3>List of Pokemon</h3>
                 {pokemon}
             </div>
         )
