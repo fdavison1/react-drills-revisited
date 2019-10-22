@@ -58,3 +58,14 @@ img {
 button {
   font-size: 1.5rem;
 }
+
+.task {
+  display: flex;
+  justify-content: center;
+  width: 50vh;
+  margin: 0 auto;
+}
+
+.taskItem {
+  /* width: 100px; */
+}

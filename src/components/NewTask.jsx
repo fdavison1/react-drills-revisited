@@ -19,14 +19,15 @@ handleChange(input){
 
 handleClick(){
     this.setState({
-        list: [...this.state.list, this.state.input]
+        list: [...this.state.list, this.state.input],
+        input: ''
     })
 }
 
     render(){
         return(
             <div>
-                <input placeholder='Add to do' onChange={(e) => this.handleChange(e.target.value)}/>
+                <input placeholder='Add to do' onChange={(e) => this.handleChange(e.target.value)} value={this.state.input}/>
                 <button onClick={() => this.handleClick()}>Add</button>
                 <List list={this.state.list}/>
             </div>

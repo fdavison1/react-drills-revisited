@@ -6,7 +6,10 @@ export default class List extends React.Component{
     }
     render(){
         let listDisplay = this.props.list.map((el, i)=> {
-            return <h3> {el} </h3>
+            return <div className='task'>
+                <h3> {el} </h3>
+                <button>X</button>
+            </div>
         })
         return(
             <div>

@@ -7,8 +7,9 @@ export default class Todo extends React.Component{
     }
     render(){
         let output = this.props.groceries.map((el,i) => 
-            <div>
-                <h3 key={i}>{el}</h3><button>X</button>
+            <div className='task'>
+                <h3 className='taskItem' key={i}>{el}</h3>
+                <button>X</button>
             </div>
         ) 
         return(
