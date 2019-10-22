@@ -14,7 +14,7 @@ export default class Products extends React.Component{
         axios
         .get(`https://pokeapi.co/api/v2/pokemon/`)
         .then(res => {
-            console.log(res)
+            // console.log(res)
             this.setState({
                 pokemon: res.data.results
             })
