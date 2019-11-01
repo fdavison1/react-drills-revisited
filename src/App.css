@@ -70,3 +70,10 @@ button {
   /* width: 100px; */
 }
 
+.pokemon-img {
+  /* border: solid red; */
+  height: 200px;
+  width: 200px;
+  /* background: white; */
+  margin: 0 50px;
+}

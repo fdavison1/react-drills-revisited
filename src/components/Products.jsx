@@ -14,16 +14,37 @@ export default class Products extends React.Component{
         axios
         .get(`https://pokeapi.co/api/v2/pokemon/`)
         .then(res => {
-            // console.log(res)
+            console.log(res.data.results)
             this.setState({
-                pokemon: res.data.results
+                pokemon: res.data.results,
             })
         })
     }
 
     render(){
         let pokemon = this.state.pokemon.map((el, i) => {
-            return <Link key={i} to={`/productdetails/${el.name}`}><button>{el.name}</button></Link>
+            // console.log(el)
+            return (
+                
+                <div key={i}>
+
+                    {/* <h1>test</h1> */}
+                    {/* <img src={el.sprites.front_default} alt=""/> */}
+
+                    <Link key={i} to={`/productdetails/${el.name}`}>
+                        <button>{el.name}</button>
+                    </Link>
+
+                </div>
+                
+                
+                
+                )
+                // console.log({el})
+
+            
+                
+            
         })
         return(
             <div>

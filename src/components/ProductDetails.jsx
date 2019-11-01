@@ -9,6 +9,7 @@ constructor(){
         weight: '',
         height: '',
         base: '',
+        imgURL: ''
     }
 }
 
@@ -20,7 +21,8 @@ componentDidMount(){
                 id: res.data.id,
                 height: res.data.height,
                 weight: res.data.weight,
-                base: res.data.base_experience
+                base: res.data.base_experience,
+                imgURL: res.data.sprites.front_default
             })
         })
 }
@@ -29,6 +31,9 @@ componentDidMount(){
         return(
             <div>
                 <h3>{this.props.match.params.name}</h3>
+                <img 
+                className='pokemon-img'
+                    src={this.state.imgURL} alt=""/>
                 <h3>Order: {this.state.id}</h3>
                 <h3>Height: {this.state.height}</h3>
                 <h3>Weight: {this.state.weight} </h3>
